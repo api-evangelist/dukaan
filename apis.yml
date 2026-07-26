@@ -1,8 +1,18 @@
 aid: dukaan
 name: Dukaan
-description: Dukaan is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Dukaan is an enterprise e-commerce platform, built by Growthpond Technology
+  Private Limited (India), that lets businesses launch and run online stores
+  without code. The platform bundles a store builder with curated themes,
+  catalog and order management, pan-India logistics via Dukaan Delivery,
+  payments, and an extendable plugin ecosystem. Dukaan's public developer
+  surface is its Themes platform: a documented theming system (docs.mydukaan.io)
+  built on HTML, CSS, JavaScript, and the Nunjucks templating language, with a
+  "Dukaan Data" store-object model, "Dukaan Functions", and first-party plugins
+  (wishlist, countdown timer, product scarcity). Dukaan does not publish a
+  public REST/OpenAPI programmatic API; its extensibility is theme- and
+  plugin-oriented rather than API-first. Added to the API Evangelist network
+  from the Lightspeed Venture Partners portfolio.
 url: https://raw.githubusercontent.com/api-evangelist/dukaan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,71 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mydukaan.io/images/og-images/og-selling-online.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- E-Commerce
+- Online Store
+- Store Builder
+- Retail
+- Themes
+- Templating
+- Plugins
+- Logistics
+- India
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dukaan-domain-security.yml
+- type: Website
+  url: https://mydukaan.io/
+- type: Documentation
+  url: https://docs.mydukaan.io/
+- type: Support
+  url: https://help.mydukaan.io/
+- type: HelpCenter
+  url: https://help.mydukaan.io/
+- type: Blog
+  url: https://mydukaan.io/blog/
+- type: Pricing
+  url: https://mydukaan.io/pricing
+- type: SignUp
+  url: https://web.mydukaan.io/signup
+- type: Login
+  url: https://web.mydukaan.io/login
+- type: TermsOfService
+  url: https://mydukaan.io/terms
+- type: PrivacyPolicy
+  url: https://mydukaan.io/privacy
+- type: LLMsTxt
+  url: llms/dukaan-llms.txt
+- type: Packages
+  url: packages/dukaan-packages.yml
+- type: SDKs
+  url: packages/dukaan-packages.yml
+- type: GitHubOrganization
+  url: https://github.com/TeamDukaan
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

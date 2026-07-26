@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: probed /.well-known/ on Dukaan hosts 2026-07-18
+host: https://mydukaan.io
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+other_hosts:
+- host: https://docs.mydukaan.io
+  path: /.well-known/security.txt
+  status: 404
+- host: https://api.mydukaan.io
+  path: /.well-known/security.txt
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on any probed Dukaan host.
+  Empty result is expected and recorded honestly; no WellKnown/SecurityTxt
+  scoring pointer is wired because no catalog document exists.

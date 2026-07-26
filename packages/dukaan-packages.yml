@@ -1,0 +1,54 @@
+generated: '2026-07-18'
+method: searched
+source: >-
+  npm registry search 2026-07-18; first-party confirmed by author "Subhash
+  Choudhary" (Dukaan founder/CTO), the @dukaan npm scope, and repositories in
+  the github.com/TeamDukaan organization.
+packages:
+- language: javascript
+  registry: npm
+  name: "@dukaan/dukaan-sdk"
+  url: https://www.npmjs.com/package/@dukaan/dukaan-sdk
+  install: npm install @dukaan/dukaan-sdk
+  version: 1.0.178
+  description: Dukaan SDK (client/tracking system).
+  author: Subhash Choudhary
+  official: true
+- language: javascript
+  registry: npm
+  name: "@dukaan/cli"
+  url: https://www.npmjs.com/package/@dukaan/cli
+  install: npm install -g @dukaan/cli
+  version: 1.0.4
+  description: DukaanTech deployment service CLI.
+  author: Subhash Choudhary
+  official: true
+- language: javascript
+  registry: npm
+  name: "@nikamanish/dukaan-theme-contexts"
+  url: https://www.npmjs.com/package/@nikamanish/dukaan-theme-contexts
+  install: npm install @nikamanish/dukaan-theme-contexts
+  version: 0.0.74
+  repository: https://github.com/TeamDukaan/dukaan-theme-contexts
+  description: Dukaan theme development contexts (TeamDukaan org).
+  official: true
+  official_note: >-
+    Published under a maintainer scope but repository lives in the official
+    github.com/TeamDukaan organization.
+- language: javascript
+  registry: npm
+  name: "@nikamanish/dukaan-theme-utils"
+  url: https://www.npmjs.com/package/@nikamanish/dukaan-theme-utils
+  install: npm install @nikamanish/dukaan-theme-utils
+  version: 0.0.46
+  repository: https://github.com/TeamDukaan/dukaan-theme-utils
+  description: Dukaan theme development utilities (TeamDukaan org).
+  official: true
+  official_note: >-
+    Published under a maintainer scope but repository lives in the official
+    github.com/TeamDukaan organization.
+notes: >-
+  Dukaan publishes no PyPI, Maven, NuGet, Go, RubyGems, Packagist, or crates.io
+  first-party client libraries. Its developer surface is theme/plugin oriented
+  (JavaScript/Nunjucks); these npm packages support theme development,
+  deployment, and client-side tracking rather than a public REST API.
