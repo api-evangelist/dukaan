@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/dukaan/integrations
+- https://n8n.io/integrations/dukaan/
+- https://composio.dev/toolkits/dukaan
+- https://monid.ai/tools/dukaan
+checked:
+- https://composio.dev/toolkits/dukaan
+- https://monid.ai/tools/dukaan
+- https://n8n.io/integrations/dukaan/
+- https://zapier.com/apps/dukaan/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
